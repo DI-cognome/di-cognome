@@ -8,7 +8,7 @@ The data conventions of the HCP must be expansive, interpretable, computationall
 
 **Token** — A discrete element assigned computational relevance within the system.
 
-**Token ID** — The namespaced identifier for a stored Token. See [token-addressing.md](token-addressing.md) for the full scheme.
+**Token ID** — The namespaced identifier for a stored Token, using base-50 letter pairs. See [token-addressing.md](token-addressing.md) for the full scheme.
 
 **Mode / Modality** — Primary identifier of expression structure and processing path (text, audio, visual, conceptual, etc.).
 
@@ -53,7 +53,7 @@ Every form of human expression decomposes through layers of abstraction to ~65 N
 
 Each Token has a computable abstraction level: the number of combinatoric layers between it and NSM primitives. Higher abstraction implies less inherent confidence without sufficient lower-abstraction foundations.
 
-NSM primitives occupy the `00`-mode namespace alongside byte codes and other universal/computational elements.
+NSM primitives occupy the `AA`-mode namespace alongside byte codes and other universal/computational elements.
 
 ## Token Data Elements
 

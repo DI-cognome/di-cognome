@@ -15,6 +15,8 @@ _Last updated: 2026-02-01_
 - **Pair-bond maps** — FPB/FBR structure, reconstruction, compression, error correction
 - **Architecture** — two-engine model, conceptual forces, LoD stacking, fluid dynamics framing
 
+- **Identity structures** — personality DB (seed + living layer), relationship DB, integration with core data model
+
 These are first-pass specs derived from working notes. They need review, critique, and refinement.
 
 ### Python prototype (`work/hcp/`)

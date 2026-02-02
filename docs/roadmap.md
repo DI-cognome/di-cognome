@@ -1,35 +1,46 @@
 # Roadmap
 
-## Phase 1: Foundation (current)
+The HCP intends to use game and physics engines as database and calculation tools. Kernel speed and pure function are the primary goal, not pixel output.
 
-Establish the core data structures and prove they work on real data.
+## The goal
 
-- Stabilize Token ID scheme and PBM storage format
-- Ingest a real word list and build letter-level bonding tables
-- Demonstrate PBM reconstruction for simple text
-- Define the ~65 NSM primitives as first-class tokens
-- Get external review of the spec
+A full response inference engine built on physical structural principles — not statistical weight matrices. Cognition modeled as mechanics, not curve-fitting.
 
-### MVP definition
-A working system that can:
-1. Accept a text input
-2. Tokenize it to the defined Token ID scheme
-3. Build a PBM for the input
-4. Reconstruct the original text from the PBM
-5. Demonstrate basic error correction (misspelled word → lowest energy-loss match)
+## Phase 1: Linguistic Engine (current)
 
-## Phase 2: Conceptual Layer
+Creation of a linguistic interpretation database and engine using game engine kernel methods, with English as the first language example.
 
-Add meaning on top of structure.
+### 1. Text byte code PBMs
+Creation of PBMs for all byte code combinations and tables. The atomic floor — every character encoding mapped and bonded.
 
-- Implement conceptual force tagging (albedo, gravity)
-- Build abstraction-level computation (Token → NSM primitive depth)
-- Integrate physics engine for force-based assembly (engine TBD)
-- LoD stacking with real energy-loss calculations
+### 2. Kaikki English dictionary
+Map all of Kaikki English as the first language reference database. All data ingested and cross-referenced.
 
-## Phase 3: Multi-Modality
+### 3. Character to word and morpheme patterns
+Map characters to English word and morpheme bonding patterns. Letter-level and morpheme-level FBR data from real word structures.
 
-Extend beyond text.
+### 4. Grammar and sentence structure
+Incorporate grammar and sentence structure construction rules. PoS bonding behaviour, syntactic patterns, structural templates.
+
+### 5. NSM decomposition of the dictionary
+Decompose the dictionary through abstraction layers down to NSM primitives. Populate the AA namespace, establish abstraction depth for every token.
+
+## Phase 2: Identity and Theory of Mind
+
+Personality DB (seed + living layer), relationship DB, and Theory of Mind modeling as fluid dynamics.
+
+- Seed management — creation, storage, versioning
+- Living-layer accumulation — how the DI's self-model evolves
+- Relationship structures — the DI's social graph
+- Multiple ToM constructs modeled as fluid interactions
+
+## Phase 3: Full Text Inference
+
+The complete response engine for language — linguistic deconstruction and generation operating as a unified system.
+
+## Phase 4: Multi-Modality
+
+Extend the same structural primitives beyond text to other forms of expression.
 
 - Define mode namespaces for audio, visual, and other modalities
 - Build covalent bonding tables for non-text formats
