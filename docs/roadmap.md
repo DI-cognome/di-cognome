@@ -6,6 +6,10 @@ The HCP intends to use game and physics engines as database and calculation tool
 
 A full response inference engine built on physical structural principles — not statistical weight matrices. Cognition modeled as mechanics, not curve-fitting.
 
+The inference model is called **NAPIER**: *Not Another Proprietary Inference Engine, Really.*
+
+(John Napier invented logarithms — computational shortcuts that transformed impossible calculations into tractable ones. The same principle applies here: recognizing that the hard computation is already solved, just mislabeled as "physics engines.")
+
 ## Phase 1: Linguistic Engine (current)
 
 Creation of a linguistic interpretation database and engine using game engine kernel methods, with English as the first language example.
