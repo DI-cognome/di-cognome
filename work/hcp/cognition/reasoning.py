@@ -25,6 +25,8 @@ class ReasoningConfig:
     """Configuration for reasoning engine."""
     max_context_bonds: int = 20
     min_activation: float = 0.1
+    # Default model - tinyllama for testing (fast, small).
+    # Use llama3, mistral, etc. for better quality in production.
     model: str = "tinyllama:latest"
     record_decisions: bool = True
     identity_token: str | None = None
